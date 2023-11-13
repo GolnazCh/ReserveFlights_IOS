@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FCC96302A38A13100369C85 /* Golnaz_FlightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC962F2A38A13100369C85 /* Golnaz_FlightsApp.swift */; };
+		5FCC96322A38A13100369C85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC96312A38A13100369C85 /* ContentView.swift */; };
+		5FCC96342A38A13200369C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FCC96332A38A13200369C85 /* Assets.xcassets */; };
+		5FCC96372A38A13200369C85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FCC96362A38A13200369C85 /* Preview Assets.xcassets */; };
+		5FCC963E2A38A22000369C85 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC963D2A38A22000369C85 /* Flight.swift */; };
+		5FCC96402A38A2C600369C85 /* FlightsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC963F2A38A2C600369C85 /* FlightsDataSource.swift */; };
+		5FCC96422A38A69500369C85 /* EntryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC96412A38A69500369C85 /* EntryFormView.swift */; };
+		5FCC96442A38A6B200369C85 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC96432A38A6B200369C85 /* HistoryView.swift */; };
+		5FCC96462A38A6CB00369C85 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC96452A38A6CB00369C85 /* DetailsView.swift */; };
+		5FCC964F2A38C76B00369C85 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC964E2A38C76B00369C85 /* Reservation.swift */; };
+		5FCC96512A38C8E900369C85 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC96502A38C8E900369C85 /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FCC962C2A38A13100369C85 /* Golnaz_Flights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Golnaz_Flights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCC962F2A38A13100369C85 /* Golnaz_FlightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golnaz_FlightsApp.swift; sourceTree = "<group>"; };
+		5FCC96312A38A13100369C85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5FCC96332A38A13200369C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FCC96362A38A13200369C85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FCC963D2A38A22000369C85 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		5FCC963F2A38A2C600369C85 /* FlightsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsDataSource.swift; sourceTree = "<group>"; };
+		5FCC96412A38A69500369C85 /* EntryFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryFormView.swift; sourceTree = "<group>"; };
+		5FCC96432A38A6B200369C85 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		5FCC96452A38A6CB00369C85 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		5FCC964E2A38C76B00369C85 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		5FCC96502A38C8E900369C85 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FCC96292A38A13100369C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FCC96232A38A13100369C85 = {
+			isa = PBXGroup;
+			children = (
+				5FCC962E2A38A13100369C85 /* Golnaz_Flights */,
+				5FCC962D2A38A13100369C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FCC962D2A38A13100369C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC962C2A38A13100369C85 /* Golnaz_Flights.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FCC962E2A38A13100369C85 /* Golnaz_Flights */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC96472A38A6F900369C85 /* Model */,
+				5FCC962F2A38A13100369C85 /* Golnaz_FlightsApp.swift */,
+				5FCC96482A38A71C00369C85 /* DataSource */,
+				5FCC96492A38A73200369C85 /* Views */,
+				5FCC96332A38A13200369C85 /* Assets.xcassets */,
+				5FCC96352A38A13200369C85 /* Preview Content */,
+			);
+			path = Golnaz_Flights;
+			sourceTree = "<group>";
+		};
+		5FCC96352A38A13200369C85 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC96362A38A13200369C85 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FCC96472A38A6F900369C85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC963D2A38A22000369C85 /* Flight.swift */,
+				5FCC964E2A38C76B00369C85 /* Reservation.swift */,
+				5FCC96502A38C8E900369C85 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5FCC96482A38A71C00369C85 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC963F2A38A2C600369C85 /* FlightsDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		5FCC96492A38A73200369C85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC96312A38A13100369C85 /* ContentView.swift */,
+				5FCC96432A38A6B200369C85 /* HistoryView.swift */,
+				5FCC96452A38A6CB00369C85 /* DetailsView.swift */,
+				5FCC96412A38A69500369C85 /* EntryFormView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FCC962B2A38A13100369C85 /* Golnaz_Flights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FCC963A2A38A13200369C85 /* Build configuration list for PBXNativeTarget "Golnaz_Flights" */;
+			buildPhases = (
+				5FCC96282A38A13100369C85 /* Sources */,
+				5FCC96292A38A13100369C85 /* Frameworks */,
+				5FCC962A2A38A13100369C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Golnaz_Flights;
+			productName = Golnaz_Flights;
+			productReference = 5FCC962C2A38A13100369C85 /* Golnaz_Flights.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FCC96242A38A13100369C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5FCC962B2A38A13100369C85 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 5FCC96272A38A13100369C85 /* Build configuration list for PBXProject "Golnaz_Flights" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FCC96232A38A13100369C85;
+			productRefGroup = 5FCC962D2A38A13100369C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FCC962B2A38A13100369C85 /* Golnaz_Flights */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FCC962A2A38A13100369C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCC96372A38A13200369C85 /* Preview Assets.xcassets in Resources */,
+				5FCC96342A38A13200369C85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FCC96282A38A13100369C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCC963E2A38A22000369C85 /* Flight.swift in Sources */,
+				5FCC96462A38A6CB00369C85 /* DetailsView.swift in Sources */,
+				5FCC96322A38A13100369C85 /* ContentView.swift in Sources */,
+				5FCC96442A38A6B200369C85 /* HistoryView.swift in Sources */,
+				5FCC96422A38A69500369C85 /* EntryFormView.swift in Sources */,
+				5FCC96512A38C8E900369C85 /* User.swift in Sources */,
+				5FCC96402A38A2C600369C85 /* FlightsDataSource.swift in Sources */,
+				5FCC964F2A38C76B00369C85 /* Reservation.swift in Sources */,
+				5FCC96302A38A13100369C85 /* Golnaz_FlightsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5FCC96382A38A13200369C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FCC96392A38A13200369C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FCC963B2A38A13200369C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Golnaz_Flights/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.Golnaz.Golnaz-Flights";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FCC963C2A38A13200369C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Golnaz_Flights/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.Golnaz.Golnaz-Flights";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FCC96272A38A13100369C85 /* Build configuration list for PBXProject "Golnaz_Flights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FCC96382A38A13200369C85 /* Debug */,
+				5FCC96392A38A13200369C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FCC963A2A38A13200369C85 /* Build configuration list for PBXNativeTarget "Golnaz_Flights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FCC963B2A38A13200369C85 /* Debug */,
+				5FCC963C2A38A13200369C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FCC96242A38A13100369C85 /* Project object */;
+}
